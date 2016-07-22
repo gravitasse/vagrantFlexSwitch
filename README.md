@@ -1,7 +1,7 @@
 # vagrantFlexSwitch
 This repository contains vagrant related files for FlexSwitch
 
-Instructions on how to get Vagrant box up with FlexSwitch package (Prefered host machine is debain based linux distro.):
+Instructions on how to get Vagrant box up with FlexSwitch package:
 
 Instructions on how to get Vagrant FlexSwitch resources:
 
@@ -11,16 +11,22 @@ Instructions on how to get Vagrant FlexSwitch resources:
 4. Change directory (cd vagrantFlexSwitch)
 5. Execute this step if git lfs is not installed
 
-> curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+> For Debian based Host Machines:
 
-> sudo apt-get install git-lfs
+      curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+      sudo apt-get install git-lfs
+      
+> For Mac OSX
+
+      Please follow the steps on given link: [Git LFS OSX] (http://macappstore.org/git-lfs/ "Git LFS OSX")
+      
       
 7. git lfs install
 8. git lfs fetch
 9. git lfs checkout
 
 Note:
-Please verify the size of files in this repository, if sizes are not same there is some issue with git lfs. Please refer to [Git Lfs] (https://git-lfs.github.com/ "Git lfs").
+Please verify the size of files in this repository, if sizes are not same there is some issue with git lfs. Please refer to [Git LFS Debian] (https://git-lfs.github.com/ "Git LFS Debian") or [Git Lfs OSX] (http://macappstore.org/git-lfs/ "Git LFS OSX").
 
 >
 
@@ -40,16 +46,13 @@ Please verify the size of files in this repository, if sizes are not same there 
 
       drwxrwxr-x 9 opensnaproute opensnaproute      4096 Jul 22 09:29 .git
 
+In case if there is difficulty with github. Here is a link to [Google Drive] (https://drive.google.com/open?id=0B2sb_hH-7YHycHYtSndVbU1GVzg "Google Drive Vagrant Flexswitch")
 
 Instructions on how to run this vagrant (snaproute.box):
 
-1. Make folder to store images:
-   mkdir srBox; cd srBox
-2. Copy files into srBox:
-   cp snaproute.box VagrantFile srBox/
-3. vagrant box add SnapRoute112 snaproute.box
-4. vagrant up
-5. vagrant ssh
+1. vagrant box add SnapRoute112 snaproute.box
+2. vagrant up
+3. vagrant ssh
    password is vagrant
       
 This vagrant image is based on Ubuntu 14.04 and two ports are created within this image by default "Eth0" and "Eth1".
