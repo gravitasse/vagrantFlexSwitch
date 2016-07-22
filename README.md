@@ -45,7 +45,7 @@ Please verify the size of files in this repository, if sizes are not same there 
 
       drwxrwxr-x 9 opensnaproute opensnaproute      4096 Jul 22 09:29 .git
 
-In case if there is difficulty with github. Here is a link to [Google Drive] (https://drive.google.com/open?id=0B2sb_hH-7YHycHYtSndVbU1GVzg "Google Drive Vagrant Flexswitch")
+In case you run into issues with github you can download the vagrant files from our  [Google Drive] (https://drive.google.com/open?id=0B2sb_hH-7YHycHYtSndVbU1GVzg "Google Drive Vagrant Flexswitch")
 
 Instructions on how to run this vagrant (snaproute.box):
 
