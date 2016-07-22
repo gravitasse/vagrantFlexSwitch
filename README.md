@@ -14,11 +14,10 @@ Instructions on how to get Vagrant FlexSwitch resources:
 > For Debian based Host Machines:
 
       curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+      
       sudo apt-get install git-lfs
       
-> For Mac OSX
-
-      Please follow the steps on given link: [Git LFS OSX] (http://macappstore.org/git-lfs/ "Git LFS OSX")
+> For Mac OSX, please follow the steps on given link: [Git LFS OSX] (http://macappstore.org/git-lfs/ "Git LFS OSX").
       
       
 7. git lfs install
@@ -26,7 +25,7 @@ Instructions on how to get Vagrant FlexSwitch resources:
 9. git lfs checkout
 
 Note:
-Please verify the size of files in this repository, if sizes are not same there is some issue with git lfs. Please refer to [Git LFS Debian] (https://git-lfs.github.com/ "Git LFS Debian") or [Git Lfs OSX] (http://macappstore.org/git-lfs/ "Git LFS OSX").
+Please verify the size of files in this repository, if sizes are not same there is some issue with git lfs. Please refer to [Git LFS Debian] (https://git-lfs.github.com/ "Git LFS Debian"). or [Git LFS OSX] (http://macappstore.org/git-lfs/ "Git LFS OSX").
 
 >
 
@@ -53,6 +52,6 @@ Instructions on how to run this vagrant (snaproute.box):
 1. vagrant box add SnapRoute112 snaproute.box
 2. vagrant up
 3. vagrant ssh
-   password is vagrant
+4. password is "vagrant"
       
 This vagrant image is based on Ubuntu 14.04 and two ports are created within this image by default "Eth0" and "Eth1".
