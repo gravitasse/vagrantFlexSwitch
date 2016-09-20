@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
   config.ssh.insert_key = false
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "SnapRoute127"
+  config.vm.box = "SnapRoute167"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs

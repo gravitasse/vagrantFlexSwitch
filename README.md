@@ -49,7 +49,7 @@ In case you run into issues with github you can download the vagrant files from 
 
 Instructions on how to run this vagrant (snaproute.box):
 
-1. vagrant box add SnapRoute127 snaproute.box
+1. vagrant box add SnapRoute167 snaproute.box
 2. vagrant up
 3. vagrant ssh
 4. password is "vagrant"
