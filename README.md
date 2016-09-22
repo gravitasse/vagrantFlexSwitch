@@ -55,3 +55,4 @@ Instructions on how to run this vagrant (snaproute.box):
 4. password is "vagrant"
       
 This vagrant image is based on Ubuntu 14.04 and two ports are created within this image by default "Eth0" and "Eth1".
+"Eth1" will be your management interface ip address if you are using public network
